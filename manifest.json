@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Safir",
+    "version": "1.0.0",
+    "description": "Keeps you safe from online bullying.",
+    "icons": {
+        "32": "images/icon-32.png"
+    },
+    "background": {
+        "service_worker": "service_worker.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+  }
